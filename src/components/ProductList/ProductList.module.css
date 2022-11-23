@@ -1,0 +1,58 @@
+.productList{
+    display: flex;
+}
+
+.product{
+    height: 420px;
+    width: 300px;
+    border-left: 1px solid #c4c2c2;
+    border-right: 1px solid #c4c2c2;
+    border-bottom: 1px solid #c4c2c2;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.productImg{
+    background-color: #FFF;
+    height: 240px;
+    width: 220px;
+    padding-top: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.discount,.description,.brand,.category,.placeOfProduction{
+    height: 24px;
+    padding: 5px;
+    display: inline-block;
+}
+
+.description:hover{
+    color: #e4376b;
+    cursor: pointer;
+}
+.discount{
+    background-color: #be013b;
+    color: #FFF;
+    font-weight: 500;
+    margin: 5px;
+}
+.description{
+    font-size: 14px;
+    height: 18px;
+    font-weight: 500;
+}
+
+.price{
+    font-size: 14px;
+    text-decoration: line-through!important;
+}
+.brand{
+    display: block;
+    font-size: 14px;
+}

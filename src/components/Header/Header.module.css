@@ -1,0 +1,96 @@
+.navBar{
+    background-color: #252f3e;
+    height: 60px;
+    color: #FFF;
+    display: flex;
+    background-size : cover;
+}
+
+
+.locationLogo path{
+    stroke: rgb(255, 255, 255);
+}
+.locationLogo{
+    margin-top: 10px;
+
+}
+.deliverBox{
+    text-align: start;
+}
+.location{
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    padding: 0 9px 0 9px;
+    margin: 5px 2px 5px 0;
+    min-width: 100px;
+    width: 100px;
+}
+.location .deliverTo{
+    font-size: 12px;
+}
+
+.location .country{
+    font-weight: 700;
+    line-height: 15px;
+    font-size: 14px;
+    
+}
+.shopLogo{
+  padding: 10px;
+  height: 50px;
+
+}
+.cartLogo{
+  padding: 8px;
+}
+.cartCount{
+    font-size: 30px;
+    font-weight: 400;
+    color: rgb(255, 192, 75);
+}
+.language{
+    display: flex;
+    padding: 0 8px 10px 8px;
+    align-items: flex-end;
+}
+
+.returnOrder, .account{
+    padding: 0 8px 10px 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-start;
+    width: 70px;
+    min-width: 70px;
+}
+
+.returns, .status{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.orders, .account {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.cart{
+    display: flex;
+    width: 80px;
+    justify-content: center;
+    padding: 5px 5px 5px 0;
+    align-items: center;
+}
+
+.americanLogo{
+    width: 22px;
+    height: 14px;
+    padding-bottom: 2px;
+    margin-right: 2px;
+}
+
+.account {
+    width: 120px;
+    min-width: 120px;
+}

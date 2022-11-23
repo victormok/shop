@@ -1,0 +1,30 @@
+.subHeaders{
+    background-color: #fafafa;
+    height: 32px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 3px;
+    font-size: 14px;
+}
+
+.subHeader{
+    margin-left: 24px;
+    color: #000;
+    text-decoration: none;
+    
+}
+
+.subHeader:hover {
+    color: #f3a323;
+    border-bottom: 2px solid;
+    border-bottom-color: #f3a323;
+    cursor: pointer;
+}
+
+
+
+a:hover {
+    text-decoration: none;
+}
+

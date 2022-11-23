@@ -1,0 +1,31 @@
+.body{
+    min-height: 1000px;
+    display: flex;
+    border-top: 1px solid #c4c2c2;
+
+}
+
+.leftList{
+    width: 200px;
+    padding: 10px;
+}
+
+.advertise{
+    height: 200px;
+}
+
+
+@media only screen and (min-width: 1800px) {
+    .container{
+       background-color: #c4c2c2;
+       display: flex;
+       justify-content:center;
+    }
+    .body{
+       background-color: #FFF;
+       min-width: 1500px
+    }
+    .advertise{
+        height: 200px;
+    }
+  }

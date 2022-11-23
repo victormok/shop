@@ -1,0 +1,12 @@
+.category{
+    font-size: 14px;
+    font-weight: 400;
+    margin: 5px;
+    display: flex;
+}
+
+.categoryHeader{
+    font-size: 18px;
+    font-weight: 500;
+    margin: 5px;
+}
